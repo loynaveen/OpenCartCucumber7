@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="classes" name="Open Cart Parallel Suite" verbose="2"
+	thread-count="5">
+
+	<!--<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>-->
+
+	<test name="Login Page Tests">
+		<classes>
+			<class name="runner.TestRunner" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
